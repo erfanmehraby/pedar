@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style css -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" type="text/css" href="./assets/css/Review.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/sidebar.css"/>
+    <title>Review</title>
+</head>
+<body>
+
+    <!-- header -->
+        <div class="container-review">
+        <!-- header-right -->
+        <header class="header-wrapper1">
+        <div class="header-right">
+ <a href="#" class="icon2-review"><img src="./assets/images/Layer 1.svg" alt=""></a>
+ <a href="#" class="icon2-review"><img src="./assets/images/Layer 4.svg" alt=""></a>
+        </div>
+        </header>
+   <!-- header-left -->
+   <header class="header-wrapper2">
+    <div class="header-left">
+     <a href="#" class="icon1" id="cart-icon"><img src="./assets/images/Layer 3.svg"></a>
+     <div class="cart-box">
+     <h4>سبد خرید شما خالی است.</h4>
+     <div class="cart-product">
+     
+       <div class="basket">
+         <div class="cart-labels">
+             <ul class="cart-ul">
+                 <li class=" item-heading">محصول</li>
+                 <li class=" cart-price-item">قیمت</li>
+                 <li class="cart-quantity">تعداد</li>
+             </ul>
+         </div>
+                 <div class="basket-product">
+             <div class="cart-item">
+                 <div class="product-image-cart">
+                     <a href="#"><img src="/assets/images/baner.svg" alt="" class="product-image-cart-img"></a>
+                 </div>
+                 <div class="product-details">
+                     <p> <strong>  عطر و ادکلن شنل نامبر 5  </strong> </p>
+                 </div>
+             </div>
+             <div class="price-cart-item">1650000<span>تومان</span></div>
+             
+             <div class="td-button">  <button class="td-button-Level" onclick="decrementQuantity(this)"><svg  width="34" height="34" viewBox="0 0 99 54">
+               <path id="Rectangle_108" data-name="Rectangle 108" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(99) rotate(90)" fill="#732ca4"/>
+               <path id="Rectangle_107" data-name="Rectangle 107" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(99 27) rotate(90)" fill="#732ca4"/>
+             </svg>
+             <span class="negative">-</span> </button>
+               
+               <span class="quantity1">1</span>
+               
+               <button onclick="incrementQuantity(this)"> <svg width="34" height="34" viewBox="0 0 99 54">
+                 <path id="Rectangle_106" data-name="Rectangle 106" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(0 54) rotate(-90)" fill="#732ca4"/>
+                 <path id="Rectangle_109" data-name="Rectangle 109" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(0 27) rotate(-90)" fill="#732ca4"/>
+               </svg>
+               <span class="Positive">+</span></button>
+             </div>
+             <div><button class="delete"><img src="./assets/images/clear.png" alt=""></button></div>
+         </div>
+     
+         <div class="basket-product">
+           <div class="cart-item">
+               <div class="product-image-cart">
+                   <a href="#"><img src="/assets/images/baner.svg" alt="" class="product-image-cart-img"></a>
+               </div>
+               <div class="product-details">
+                   <p> <strong>  عطر و ادکلن شنل نامبر 5  </strong> </p>
+               </div>
+           </div>
+           <div class="price-cart-item">1650000<span>تومان</span></div>
+           
+           <div class="td-button">  <button class="td-button-Level" onclick="decrementQuantity(this)"><svg  width="34" height="34" viewBox="0 0 99 54">
+             <path id="Rectangle_108" data-name="Rectangle 108" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(99) rotate(90)" fill="#732ca4"/>
+             <path id="Rectangle_107" data-name="Rectangle 107" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(99 27) rotate(90)" fill="#732ca4"/>
+           </svg>
+           <span class="negative">-</span> </button>
+             
+             <span class="quantity1">1</span>
+             
+             <button onclick="incrementQuantity(this)"> <svg width="34" height="34" viewBox="0 0 99 54">
+               <path id="Rectangle_106" data-name="Rectangle 106" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(0 54) rotate(-90)" fill="#732ca4"/>
+               <path id="Rectangle_109" data-name="Rectangle 109" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(0 27) rotate(-90)" fill="#732ca4"/>
+             </svg>
+             <span class="Positive">+</span></button>
+           </div>
+           <div><button class="delete"><img src="./assets/images/clear.png" alt=""></button></div>
+       </div>
+             </div>
+             
+       
+     
+     </div>
+     <div class="cart-price">
+     <span>  جمع: </span>  <span> تومان </span>  
+     </div>
+     <a href="" class="cart-view"><p>مشاهده سبد خرید</p></a>
+     <a href="" class="cart-Clear"><p>تسویه حساب</p></a>
+     </div>
+     <div id="overlay"></div>
+     <a href="#" class="icon1-search" id="search-icon"><img src="./assets/images/Layer 2.svg">
+       <div class="search-box">
+                   <input type="text" class="search">
+                   <button class="button-search"><img src="./assets/images/Layer 2.svg"></button>
+                  </div>
+                
+     </a>
+                  </div>
+             </header>
+        </div>
+        <div class="container-review-menu">
+          <div class="menu-start">
+            <div class="mega-menu">
+            <img src="./assets/images/menu.svg" class="mega-menu2">
+            <a href="./product.html" class="icon-mega-menu1"><img class="img-mega-menu" src="./assets/images/Layer 2-3.svg" ></a>
+            <a href="./product.html" class="icon-mega-menu2"><img class="img-mega-menu" src="./assets/images/Layer 2-3.svg" ></a>
+            <a href="./product.html" class="icon-mega-menu3"><img class="img-mega-menu" src="./assets/images/Layer 2-3.svg" ></a>
+            <a href="./product.html" class="icon-mega-menu4"><img class="img-mega-menu" src="./assets/images/Layer 2-3.svg" ></a>
+            <a href="./product.html" class="icon-mega-menu5"><img class="img-mega-menu" src="./assets/images/Layer 2-3.svg" ></a>
+            <a href="./product.html" class="icon-mega-menu6"><img class="img-mega-menu" src="./assets/images/Layer 2-3.svg" ></a>
+            <a href="./product.html" class="icon-mega-menu7"><img class="img-mega-menu" src="./assets/images/Layer 2-3.svg" ></a>
+            <a href="./product.html" class="icon-mega-menu8"><img class="img-mega-menu" src="./assets/images/Layer 2-3.svg" ></a>
+            </div>
+            <a type="button" href="#"  onclick="toggleMegaMenu()"><img src="./assets/images/2.1.svg" class="image-menu2"></a>
+            </div>
+<div class="title-review">
+    <svg class="unic1" width="99" height="54" viewBox="0 0 99 54">
+        <path id="Rectangle_99" data-name="Rectangle 99" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(0 54) rotate(-90)" fill="#fff"/>
+        <path id="Rectangle_101" data-name="Rectangle 101" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(0 27) rotate(-90)" fill="#fff"/>
+      </svg>
+      <h1>محصولات</h1>
+      <svg class="unic1" width="99" height="54" viewBox="0 0 99 54">
+        <path id="Rectangle_98" data-name="Rectangle 98" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(99) rotate(90)" fill="#fff"/>
+        <path id="Rectangle_100" data-name="Rectangle 100" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(99 27) rotate(90)" fill="#fff"/>
+      </svg>
+</div>
+</div>
+
+    <!-- main -->
+        <div class="container-main">
+        <div class="section-1-review">
+          <svg class="svg-review" width="84" height="154" viewBox="0 0 84 154">
+            <path id="Rectangle_96" data-name="Rectangle 96" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" fill="#732ca4"/>
+            <path id="Rectangle_97" data-name="Rectangle 97" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(42)" fill="#732ca4"/>
+            <text id="OFF" transform="translate(126 71)" fill="#fff" font-size="30" font-family="IRANSans"><tspan x="-57.965" y="0">OFF</tspan></text>
+          </svg>
+          <div class="banner-atr-review">
+            <img src="./assets/images/baner.svg">
+            </div>
+    </div>
+        
+    <div class="section-2">
+        
+    </div>
+
+        <div class="section-3-review">
+          <div class="logo-atr-review">
+            <img src="./assets/images/logo.svg" class="logo-review">
+            </div>
+            <div class="Specifications">
+              <p class="text-Specifications">عطر و ادکلن شنل نامبر 5  </p>
+                <img src="./assets/images/Group 21.svg" class="star">
+<div class="box-Specifications">
+  <svg class="Specifications-svg"  width="84" height="94" viewBox="0 0 154 84">
+    <path id="Rectangle_110" data-name="Rectangle 110" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(154) rotate(90)" fill="#732ca4"/>
+    <path id="Rectangle_111" data-name="Rectangle 111" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(154 42) rotate(90)" fill="#732ca4"/>
+  </svg>
+  <p class="Specifications-p">موجودی</p>
+  <span>در انبار</span>
+</div>
+<div class="box-Specifications">
+  <svg class="Specifications-svg"  width="84" height="94" viewBox="0 0 154 84">
+    <path id="Rectangle_110" data-name="Rectangle 110" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(154) rotate(90)" fill="#732ca4"/>
+    <path id="Rectangle_111" data-name="Rectangle 111" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(154 42) rotate(90)" fill="#732ca4"/>
+  </svg>
+  <p class="Specifications-p">موجودی</p>
+  <span>در انبار</span>
+</div>
+<div class="box-Specifications">
+  <svg class="Specifications-svg" width="84" height="94" viewBox="0 0 154 84">
+    <path id="Rectangle_110" data-name="Rectangle 110" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(154) rotate(90)" fill="#732ca4"/>
+    <path id="Rectangle_111" data-name="Rectangle 111" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(154 42) rotate(90)" fill="#732ca4"/>
+  </svg>
+  <p class="Specifications-p">موجودی</p>
+  <span>در انبار</span>
+</div>
+<div class="box-Specifications">
+  <svg class="Specifications-svg" width="84" height="94" viewBox="0 0 154 84">
+    <path id="Rectangle_110" data-name="Rectangle 110" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(154) rotate(90)" fill="#732ca4"/>
+    <path id="Rectangle_111" data-name="Rectangle 111" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(154 42) rotate(90)" fill="#732ca4"/>
+  </svg>
+  <p class="Specifications-p">موجودی</p>
+  <span>در انبار</span>
+</div>
+<div class="box-Specifications">
+  <svg class="Specifications-svg" width="84" height="94" viewBox="0 0 154 84">
+    <path id="Rectangle_110" data-name="Rectangle 110" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(154) rotate(90)" fill="#732ca4"/>
+    <path id="Rectangle_111" data-name="Rectangle 111" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(154 42) rotate(90)" fill="#732ca4"/>
+  </svg>
+  <p class="Specifications-p">موجودی</p>
+  <span>در انبار</span>
+</div>
+<div class="box-Specifications">
+  <svg class="Specifications-svg" width="84" height="94" viewBox="0 0 154 84">
+    <path id="Rectangle_110" data-name="Rectangle 110" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(154) rotate(90)" fill="#732ca4"/>
+    <path id="Rectangle_111" data-name="Rectangle 111" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(154 42) rotate(90)" fill="#732ca4"/>
+  </svg>
+  <p class="Specifications-p">موجودی</p>
+  <span>در انبار</span>
+</div>
+<div class="box-Specifications">
+  <svg class="Specifications-svg" width="84" height="94" viewBox="0 0 154 84">
+    <path id="Rectangle_110" data-name="Rectangle 110" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(154) rotate(90)" fill="#732ca4"/>
+    <path id="Rectangle_111" data-name="Rectangle 111" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(154 42) rotate(90)" fill="#732ca4"/>
+  </svg>
+  <p class="Specifications-p">موجودی</p>
+  <span>در انبار</span>
+</div>
+<div class="box-Specifications">
+  <svg class="Specifications-svg" width="84" height="94" viewBox="0 0 154 84">
+    <path id="Rectangle_110" data-name="Rectangle 110" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(154) rotate(90)" fill="#732ca4"/>
+    <path id="Rectangle_111" data-name="Rectangle 111" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(154 42) rotate(90)" fill="#732ca4"/>
+  </svg>
+  <p class="Specifications-p">موجودی</p>
+  <span>در انبار</span>
+</div>
+<div class="box-Specifications">
+  <svg class="Specifications-svg" width="84" height="94" viewBox="0 0 154 84">
+    <path id="Rectangle_110" data-name="Rectangle 110" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(154) rotate(90)" fill="#732ca4"/>
+    <path id="Rectangle_111" data-name="Rectangle 111" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(154 42) rotate(90)" fill="#732ca4"/>
+  </svg>
+  <p class="Specifications-p">موجودی</p>
+  <span>در انبار</span>
+</div>
+<div class="box-Specifications">
+  <svg class="Specifications-svg" width="84" height="94" viewBox="0 0 154 84">
+    <path id="Rectangle_110" data-name="Rectangle 110" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(154) rotate(90)" fill="#732ca4"/>
+    <path id="Rectangle_111" data-name="Rectangle 111" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(154 42) rotate(90)" fill="#732ca4"/>
+  </svg>
+  <p class="Specifications-p">موجودی</p>
+  <span>در انبار</span>
+</div>
+<div class="box-Specifications">
+  <svg class="Specifications-svg" width="84" height="94" viewBox="0 0 154 84">
+    <path id="Rectangle_110" data-name="Rectangle 110" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(154) rotate(90)" fill="#732ca4"/>
+    <path id="Rectangle_111" data-name="Rectangle 111" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(154 42) rotate(90)" fill="#732ca4"/>
+  </svg>
+  <p class="Specifications-p">موجودی</p>
+  <span>در انبار</span>
+</div>
+
+            </div>
+    </div>
+        </div>
+        <div class="container-main">
+          <div class="section-4-review">
+            <div class="title-review2">
+<button class="button-cart">
+  <svg class="button-cart-img"  width="64" height="54" viewBox="0 0 99 54">
+    <path id="Rectangle_108" data-name="Rectangle 108" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(99) rotate(90)" fill="#732ca4"/>
+    <path id="Rectangle_107" data-name="Rectangle 107" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(99 27) rotate(90)" fill="#732ca4"/>
+  </svg>
+  <span id="minusButton">-</span>
+</button>
+<h1 id="quantity">05</h1>
+<button class="button-cart">
+  <svg class="button-cart-img" width="64" height="54" viewBox="0 0 99 54">
+    <path id="Rectangle_106" data-name="Rectangle 106" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(0 54) rotate(-90)" fill="#732ca4"/>
+    <path id="Rectangle_109" data-name="Rectangle 109" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(0 27) rotate(-90)" fill="#732ca4"/>
+  </svg>
+<span id="plusButton">+</span>
+</button>
+<a href="#" class="cart-a"><img src="./assets/images/Layer 2-1.svg" alt=""></a>
+</div>
+<div class="title">
+  <span><svg class="title-svg" width="64" height="54" viewBox="0 0 99 54">
+    <path id="Rectangle_108" data-name="Rectangle 108" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(99) rotate(90)" fill="#732ca4"/>
+    <path id="Rectangle_107" data-name="Rectangle 107" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(99 27) rotate(90)" fill="#732ca4"/>
+  </svg></span>
+    <h1>معرفی کامل</h1>
+   <span><svg class="title-svg" width="64" height="54" viewBox="0 0 99 54">
+    <path id="Rectangle_106" data-name="Rectangle 106" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(0 54) rotate(-90)" fill="#732ca4"/>
+    <path id="Rectangle_109" data-name="Rectangle 109" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(0 27) rotate(-90)" fill="#732ca4"/>
+  </svg></span>
+</div>
+<div class="Description-review">
+  <p>خرید عطر ادکلن لاگوست سفید مردانه شرکتی (Lacoste Blanc)
+
+    عطر فراگرنس ورد اورینت بلانک یکی از محصولات برجسته شرکت فراگرنس ورد در صنعت عطرسازی است. این عطر با ترکیبی منحصر به فرد از رایحه‌های گلی و سنتی، جذابیت خاصی به خود می‌بخشد.
+    
+    رایحه‌ی اولیه‌ی این عطر شامل نت‌هایی از پرتقال، لیمو و دارچین است که حس تازگی و گرما را به این محصول می‌بخشد. رایحه‌ی میانی این عطر شامل نت‌هایی از یاس، یاسمن و زنبق می‌باشد که حس گلی و دلنشینی را به این عطر می‌بخشد. رایحه‌ی پایه‌ی این عطر نیز شامل نت‌هایی از عنبر، مشک و چوب صندل است که با رایحه‌ی گلی و مرکباتی در رایحه‌ی میانی، ترکیب می‌شوند و به این محصول جذابیت خاصی می‌بخشند.
+    
+        لاگوست سفید مردانه (Lacoste Blanc) یک عطر ادکلن محبوب و معروف است که توسط شرکت Lacoste تولید شده است. این عطر ادکلن در سال 2008 معرفی شد و توسط Michel Girard طراحی شده است. ادکلن سفید لاگوست معتبرترین نماد برند لاگوست که بویی تازه و ملایم دارد.
+    
+        رایحه: عطر Lacoste Blanc به عنوان یک عطر تازه و طبیعی معروف است. رایحه اصلی آن ترکیبی از ترنج، گل یاسمین، شکوفه پرتقال و نعناع هندی است، که به آن بوی تمیز و احساس تازگی می دهد.
+    
+        طولانی مدت بوی ماندگار: این عطر ماندگاری خوبی دارد و برای مدت زمان قابل توجهی روی پوست شما باقی می ماند.
+    
+        جنسیت: این عطر ادکلن مخصوص مردان است و با مواد و رایحه خاصی که دارد، سبک و شیکی را برای مردان ایجاد می کند.
+    
+        رایحه ای ملایم و تازه: این عطر رایحه ای خنک و تازه دارد که بویی ملایم و لطیف را در اطراف شما ایجاد می کند.
+    
+        طراحی منحصر به فرد: بطری این عطر در ظاهر بسیار شیک و جذاب است. در رکوست سفید، طراحان از رنگ سفید استفاده کرده اند که نمادی از تمیزی و تازگی است. بطری این عطر در قسمت بالای بطری دارای یک لاک پوش است که نمادی از استفاده از لوگوی لاگوست است.
+    
+        نتیجه: ادکلن Lacoste Blanc یک عطر مناسب برای استفاده در روزهای گرم تابستان است، زیرا بوی تازه و خنکی دارد که هماهنگی بیشتری با هوای گرم را ایجاد می کند. این عطر به عنوان یک انتخاب عالی برای استفاده روزانه یا حتی در محیط کار می تواند مورد استفاده قرار گیرد.
+    </p>
+</div>
+<div class="title">
+  <span><svg class="title-svg"  width="64" height="54" viewBox="0 0 99 54">
+    <path id="Rectangle_108" data-name="Rectangle 108" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(99) rotate(90)" fill="#732ca4"/>
+    <path id="Rectangle_107" data-name="Rectangle 107" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(99 27) rotate(90)" fill="#732ca4"/>
+  </svg></span>
+    <h1> محصولات مرتبط</h1>
+   <span><svg class="title-svg" width="64" height="54" viewBox="0 0 99 54">
+    <path id="Rectangle_106" data-name="Rectangle 106" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(0 54) rotate(-90)" fill="#732ca4"/>
+    <path id="Rectangle_109" data-name="Rectangle 109" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(0 27) rotate(-90)" fill="#732ca4"/>
+  </svg></span>
+</div>
+<div class="div-product">
+  <div class="product">
+  <div class="product-image">
+      <img src="./assets/images/baner.svg" class="image-atr">
+  </div>
+  <div class="product-title">
+  <p>عطر و ادکلن شنل نامبر 5</p>
+  </div>
+  <div class="product-price">
+  <p>تومان 8,000,000</p>
+   <a type="button" href="./Review.html">برو توش</a>
+   <button href="#" class="cart-a1"><img src="./assets/images/Path 20.svg" alt=""></button> 
+   <button href="#" class="cart-a2"><img src="./assets/images/Path 19.svg" alt=""></button>        
+  </div>
+  </div>
+  <div class="product">
+  <div class="product-image">
+      <img src="./assets/images/baner.svg" class="image-atr"> 
+  </div>
+  <div class="product-title">
+  <p>عطر و ادکلن شنل نامبر 5</p>
+  </div>
+  <div class="product-price">
+  <p>تومان 8,000,000</p>
+  <a type="button" href="./Review.html">برو توش</a>
+  <button href="#" class="cart-a1"><img src="./assets/images/Path 20.svg" alt=""></button> 
+  <button href="#" class="cart-a2"><img src="./assets/images/Path 19.svg" alt=""></button>       
+  </div>
+  </div>
+  </div>
+          </div>
+          <div class="section-5">
+
+          </div>
+          <div class="section-6-review">
+            <div class="Services">
+              <svg width="180" height="150" viewBox="0 0 264 220">
+                <defs>
+                </defs>
+                <path id="Union_5" data-name="Union 5" d="M188.324,162a86,86,0,0,1-86-86,86,86,0,0,1-86,86H0V0H204V162Z" transform="translate(30 58)" fill="#712ba2"/>
+                <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_151)">
+                  <rect id="Rectangle_151-2" data-name="Rectangle 151" width="204" height="48" transform="translate(30 10)" fill="#dcabff"/>
+                </g>
+                <text id="ضمانت_اصالت_کالا" data-name="ضمانت اصالت کالا" transform="translate(190 39)" fill="#712ba2" font-size="18" font-family="IRANSans"><tspan x="0" y="0">ضمانت اصالت کالا</tspan></text>
+                <text id="کیفیت_خوب_محصولاتمان_را_تضمین_می_کنیم" data-name="کیفیت خوب محصولاتمان
+              را تضمین می کنیم" transform="translate(300 77)" fill="#dcabff" font-size="18" font-family="IRANSans"><tspan x="-75" y="0">کیفیت خوب محصولاتمان</tspan><tspan y="0"></tspan><tspan x="-94.311" y="31">را تضمین می کنیم</tspan></text>
+                <circle id="Ellipse_35" data-name="Ellipse 35" cx="11.5" cy="11.5" r="11.5" transform="translate(198 25)" fill="#6f2a9f"/>
+              </svg>
+              <svg width="180" height="150" viewBox="0 0 264 220">
+                <defs>
+                </defs>
+                <path id="Union_5" data-name="Union 5" d="M188.324,162a86,86,0,0,1-86-86,86,86,0,0,1-86,86H0V0H204V162Z" transform="translate(30 58)" fill="#712ba2"/>
+                <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_151)">
+                  <rect id="Rectangle_151-2" data-name="Rectangle 151" width="204" height="48" transform="translate(30 10)" fill="#dcabff"/>
+                </g>
+                <text id="" data-name="ضمانت اصالت کالا" transform="translate(300 39)" fill="#712ba2" font-size="18" font-family="IRANSans"><tspan x="-110" y="0">کادو پیچی</tspan></text>
+                <text id="کیفیت_خوب_محصولاتمان_را_تضمین_می_کنیم" data-name="کیفیت خوب محصولاتمان
+              را تضمین می کنیم" transform="translate(300 77)" fill="#dcabff" font-size="18" font-family="IRANSans"><tspan x="-75" y="0">به سلیقه خودتان محصول
+              </tspan><tspan y="0"></tspan><tspan x="-95.311" y="31">  را کادو پیچی می کنیم </tspan></text>
+                <circle id="Ellipse_35" data-name="Ellipse 35" cx="11.5" cy="11.5" r="11.5" transform="translate(198 25)" fill="#6f2a9f"/>
+              </svg>
+              <svg width="180" height="150" viewBox="0 0 264 220">
+                <defs>
+                </defs>
+                <path id="Union_5" data-name="Union 5" d="M188.324,162a86,86,0,0,1-86-86,86,86,0,0,1-86,86H0V0H204V162Z" transform="translate(30 58)" fill="#712ba2"/>
+                <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_151)">
+                  <rect id="Rectangle_151-2" data-name="Rectangle 151" width="204" height="48" transform="translate(30 10)" fill="#dcabff"/>
+                </g>
+                <text id="ضمانت_اصالت_کالا" data-name="ضمانت اصالت کالا" transform="translate(190 39)" fill="#712ba2" font-size="18" font-family="IRANSans"><tspan x="0" y="0">مشاوره رایگان</tspan></text>
+                <text id="کیفیت_خوب_محصولاتمان_را_تضمین_می_کنیم" data-name="کیفیت خوب محصولاتمان
+              را تضمین می کنیم" transform="translate(300 80)" fill="#dcabff" font-size="18" font-family="IRANSans"><tspan x="-94.057" y="0">مشاوره های تلفنی
+              </tspan><tspan y="0"></tspan><tspan x="-114.311" y="31">رایگان عطری</tspan></text>
+                <circle id="Ellipse_35" data-name="Ellipse 35" cx="11.5" cy="11.5" r="11.5" transform="translate(198 25)" fill="#6f2a9f"/>
+              </svg>
+            </div>
+            <div class="title">
+              <span><svg class="title-svg" width="64" height="54" viewBox="0 0 99 54">
+                <path id="Rectangle_108" data-name="Rectangle 108" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(99) rotate(90)" fill="#732ca4"/>
+                <path id="Rectangle_107" data-name="Rectangle 107" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(99 27) rotate(90)" fill="#732ca4"/>
+              </svg></span>
+                <h1>نقد و بررسی</h1>
+               <span><svg class="title-svg" width="64" height="54" viewBox="0 0 99 54">
+                <path id="Rectangle_106" data-name="Rectangle 106" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(0 54) rotate(-90)" fill="#732ca4"/>
+                <path id="Rectangle_109" data-name="Rectangle 109" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(0 27) rotate(-90)" fill="#732ca4"/>
+              </svg></span>
+            </div>
+            <swiper-container class="mySwiper" init="false">
+              <swiper-slide>
+                <div class="comments">
+               <h2>علی : <p>خوبه</p> </h2> 
+               <h2>رضا : <p>بد نبود</p> </h2>
+               <h2>محسن : <p>عالیه</p> </h2>
+
+              </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="comments">
+                  <h2>علی : <p>خوبه</p> </h2> 
+                  <h2>رضا : <p>بد نبود</p> </h2>
+                  <h2>محسن : <p>عالیه</p> </h2>
+   
+                 </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="comments">
+                  <h2>علی : <p>خوبه</p> </h2> 
+                  <h2>رضا : <p>بد نبود</p> </h2>
+                  <h2>محسن : <p>عالیه</p> </h2>
+   
+                 </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="comments">
+                  <h2>علی : <p>خوبه</p> </h2> 
+                  <h2>رضا : <p>بد نبود</p> </h2>
+                  <h2>محسن : <p>عالیه</p> </h2>
+   
+                 </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="comments">
+                  <h2>علی : <p>خوبه</p> </h2> 
+                  <h2>رضا : <p>بد نبود</p> </h2>
+                  <h2>محسن : <p>عالیه</p> </h2>
+   
+                 </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="comments">
+                  <h2>علی : <p>خوبه</p> </h2> 
+                  <h2>رضا : <p>بد نبود</p> </h2>
+                  <h2>محسن : <p>عالیه</p> </h2>
+   
+                 </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="comments">
+                  <h2>علی : <p>خوبه</p> </h2> 
+                  <h2>رضا : <p>بد نبود</p> </h2>
+                  <h2>محسن : <p>عالیه</p> </h2>
+   
+                 </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="comments">
+                  <h2>علی : <p>خوبه</p> </h2> 
+                  <h2>رضا : <p>بد نبود</p> </h2>
+                  <h2>محسن : <p>عالیه</p> </h2>
+   
+                 </div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="comments">
+                  <h2>علی : <p>خوبه</p> </h2> 
+                  <h2>رضا : <p>بد نبود</p> </h2>
+                  <h2>محسن : <p>عالیه</p> </h2>
+   
+                 </div>
+              </swiper-slide>
+            </swiper-container>
+
+            <div class="comments-answer comments-answer1">
+              <input type="text" placeholder="  اینجا بنویس  ... "><button class="answer-button">ثبت</button>
+                      </div>
+          </div>
+        </div>
+
+         <!-------------- sidebar --------->
+     
+
+         <div class="sidebar">
+          <form class="search-form">
+            <input type="text" placeholder="جستجو..." class="search-form-input">
+            <button class="sidebar-search-icon"  type="submit"><img src="./assets/images/download.png" alt=""></button>
+        </form>
+          <ul>
+                 <!-- تغییر کرد -->
+              <li><a class="sidebar-a" href="#">لورم ایپسوم <span class="angle-down"></span> </a>
+                  <!-- آیتم ها اضافه شده برای نمایش اسکرول -->
+                  <ul class="submenu-sidebar">
+                      <li><a class="sidebar-a" href="#">مورد ۱</a></li>
+                      <li><a class="sidebar-a" href="#">مورد ۲</a></li>
+                      <li><a class="sidebar-a" href="#">مورد ۳</a></li>
+                      <li><a class="sidebar-a" href="#">مورد 4</a></li>
+                      <li><a class="sidebar-a" href="#">مورد 5</a></li>
+                  </ul>
+              </li>
+              <!-- تغییر کرد --> 
+              <li><a class="sidebar-a" href="#">لورم ایپسوم  <span class="angle-down"></span>  </a>
+                   <!-- آیتم ها اضافه شده برای نمایش اسکرول -->
+                  <ul class="submenu-sidebar">
+                      <li><a class="sidebar-a" href="#">مورد ۱</a></li>
+                      <li><a class="sidebar-a" href="#">مورد ۲</a></li>
+                      <li><a class="sidebar-a" href="#">مورد ۳</a></li>
+                      <li><a class="sidebar-a" href="#">مورد 4</a></li>
+                      <li><a class="sidebar-a" href="#">مورد 5</a></li>
+                  </ul>
+              </li>
+              <!-- تغییر کرد --> 
+              <li><a class="sidebar-a" href="#">لورم ایپسوم  <span class="angle-down"></span> </a>
+                  <!-- آیتم ها اضافه شده برای نمایش اسکرول -->
+                  <ul class="submenu-sidebar">
+                      <li><a class="sidebar-a" href="#">مورد ۴</a></li>
+                      <li><a class="sidebar-a" href="#">مورد ۵</a></li>
+                      <li><a class="sidebar-a" href="#">مورد ۶</a></li>
+                      <li><a class="sidebar-a" href="#">مورد 7</a></li>
+                      <li><a class="sidebar-a" href="#">مورد 8</a></li>
+                  </ul>
+              </li>
+       <!-- تغییر کرد -->
+              <li><a class="sidebar-a" href="#">لورم ایپسوم   <span class="angle-down"></span> </a>
+                  <!-- آیتم ها اضافه شده برای نمایش اسکرول -->
+                  <ul class="submenu-sidebar">
+                      <li><a class="sidebar-a" href="#">مورد ۷</a></li>
+                      <li><a class="sidebar-a" href="#">مورد ۸</a></li>
+                      <li><a class="sidebar-a" href="#">مورد 9</a></li>
+                      <li><a class="sidebar-a" href="#">مورد 10</a></li>
+                      <li><a class="sidebar-a" href="#">مورد 11</a></li>
+                      <li><a class="sidebar-a" href="#">مورد 12</a></li>
+                  </ul>
+              </li>
+          </ul>
+        </div>
+        
+            <!-------------- footer ------------------->
+
+            <footer class="container-footer">
+              <div class="footer-section-7">
+                  <div class="footer-right">
+                      <div class="footer-Services">
+                      <p>نحوه ارائه خدمات</p>
+                      <ul>
+                       <li> <a href="">روش های پرداخت </a> </li>
+                       <li> <a href="">  روش های ارسال  </a>  </li>
+                       <li>  <a href="">روند مرجوعی کالا</a>   </li>
+                       <li>   <a href="">گارانتی اصالت و سلامت فیزیکی </a>  </li>
+                      </ul>
+                  </div>
+                  <div class="footer-Conditions">
+                      <p>  قوانین و شرایط</p>
+                      <ul>
+                       <li> <a href="">  قوانین و مقرارت </a> </li>
+                       <li> <a href="">    بلاگ  </a>  </li>
+                       <li>  <a href="">  تماس با ما</a>   </li>
+                       <li>   <a href="">    درباره ما </a>  </li>
+                      </ul>
+                  </div>
+                  </div>
+              </div>
+              <div class="footer-section-8">
+              </div>
+              <div class="footer-section-9">
+                  <div class="footer-left">
+                  <div class="footer-Contact">
+                      <p>   شماره های تماس </p>
+                  <ul>
+                      <li>02155687401</li>
+                      <li>09129494037 </li>
+                  </ul>
+                  <h3>آدرس</h3>
+                  </div>
+                  <div class="footer-adress">
+                   <ul>
+                      <li>
+                          تهران، دانشگاه تهران ،
+                          کوچه شهید داود طاهری ،
+                          خیابان کارگر شمالی ، پلاک 1547 
+                      </li>
+                   </ul>
+                   <p>ایمیل</p>
+                   <ul>
+                      <li>
+                          info@fatherperfume.ir 
+                      </li>
+                   </ul>
+                   <p>ساعت کاری</p>
+                   <ul>
+                      <li>همه روزه ساعت 8 الی 17<br> به جز ایام تعطیل</li>
+                   </ul>
+                   </div>
+                  </div>
+              </div>
+          </footer>
+              <div class="container-namad">
+               <div class="namad">
+                  <img src="./assets/images/enamad.svg">
+                  
+                  <img src="./assets/images/نماد اعتماد الکترونیکی.svg" >
+                  
+                  <img src="./assets/images/آرامش و اعتماد در خرید اینترنتی.svg" >
+                  <img src="./assets/images/Line 7.svg" class="Line">
+              </div>
+              <div class="i-job">
+  <img src="./assets/images/Group 26.svg" class="ijob-logo" >
+  <img src="./assets/images/قدرت گرفته از سامانه هوشمند آی جاب.svg" alt="">
+              </div>
+          </div>
+
+         <!--------- footer-mobile ------------->
+         <footer>
+          <div class="footer-container-mobile">
+<div class="footer-mobile">
+  <ul>
+      <li><a  href="#" >   <img class="mobile-icon" src="./assets/images/Subtraction 27.png"> </a></li>
+      <li><a  href="#" onclick="toggleClasses(event)">  <img class="mobile-icon2" src="./assets/images/Component 2 – 1.png">  </a></li>
+      <li><a href="#" class="icon2"><img src="./assets/images/Layer 2-icon1.svg" alt=""></a></li>
+      <li><a href="#" class="icon1-mobile" id="cart-icon2"><img src="./assets/images/Layer 2-icon3.svg"></a></li>
+  </ul>
+</div>
+</div>
+         </footer>
+
+          <script src="./assets/js/Review.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script> 
+          <script>
+            const swiperEl = document.querySelector('swiper-container')
+            const params = {
+              injectStyles: [`
+              .swiper-pagination-bullet {
+                width: 20px;
+                height: 20px;
+                text-align: center;
+                line-height: 20px;
+                font-size: 12px;
+                color: #000;
+                opacity: 1;
+                background: rgba(0, 0, 0, 0.2);
+              }
+        
+              .swiper-pagination-bullet-active {
+                color: #fff;
+                background: #007aff;
+              }
+              `],
+              pagination: {
+                clickable: true,
+                renderBullet: function (index, className) {
+                  return '<span class="' + className + '">' + (index + 1) + "</span>";
+                },
+              },
+            }
+        
+            Object.assign(swiperEl, params)
+        
+            swiperEl.initialize();
+          </script>
+          
+      </body>
+      </html>
