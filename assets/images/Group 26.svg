@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="339" height="161.664" viewBox="0 0 339 161.664">
+  <defs>
+    <filter id="Rectangle_278" x="58.476" y="56.945" width="82.967" height="103.742" filterUnits="userSpaceOnUse">
+      <feOffset dy="21" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_279" x="131.731" y="56.444" width="106.14" height="82.967" filterUnits="userSpaceOnUse">
+      <feOffset dy="21" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_280" x="176.583" y="56.945" width="106.14" height="82.967" filterUnits="userSpaceOnUse">
+      <feOffset dy="21" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10.5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_281" x="0" y="56.945" width="82.967" height="103.742" filterUnits="userSpaceOnUse">
+      <feOffset dy="21" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10.5" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_282" x="239.929" y="0" width="99.071" height="82.967" filterUnits="userSpaceOnUse">
+      <feOffset dy="21" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10.5" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_283" x="203.858" y="0" width="99.071" height="82.967" filterUnits="userSpaceOnUse">
+      <feOffset dy="21" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10.5" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_284" x="238.027" y="26.521" width="82.967" height="135.142" filterUnits="userSpaceOnUse">
+      <feOffset dy="21" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10.5" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_285" x="81.453" y="25.545" width="82.967" height="135.142" filterUnits="userSpaceOnUse">
+      <feOffset dy="21" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10.5" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_286" x="102.729" y="77.721" width="135.142" height="82.967" filterUnits="userSpaceOnUse">
+      <feOffset dy="21" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10.5" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_287" x="176.583" y="78.221" width="124.445" height="82.967" filterUnits="userSpaceOnUse">
+      <feOffset dy="21" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10.5" result="blur-10"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_26" data-name="Group 26" transform="translate(-1041.995 -4064.587)">
+    <g transform="matrix(1, 0, 0, 1, 1042, 4064.59)" filter="url(#Rectangle_278)">
+      <path id="Rectangle_278-2" data-name="Rectangle 278" d="M19.967,0h0a0,0,0,0,1,0,0V20.775A19.967,19.967,0,0,1,0,40.742H0a0,0,0,0,1,0,0V19.967A19.967,19.967,0,0,1,19.967,0Z" transform="translate(89.98 67.45)" fill="#f9a305"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1042, 4064.59)" filter="url(#Rectangle_279)">
+      <path id="Rectangle_279-2" data-name="Rectangle 279" d="M19.967,0h0a0,0,0,0,1,0,0V23.174A19.967,19.967,0,0,1,0,43.14H0a0,0,0,0,1,0,0V19.967A19.967,19.967,0,0,1,19.967,0Z" transform="translate(206.37 66.94) rotate(90)" fill="#f9a305"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1042, 4064.59)" filter="url(#Rectangle_280)">
+      <path id="Rectangle_280-2" data-name="Rectangle 280" d="M0,0H0A19.967,19.967,0,0,1,19.967,19.967V43.14a0,0,0,0,1,0,0h0A19.967,19.967,0,0,1,0,23.174V0A0,0,0,0,1,0,0Z" transform="translate(251.22 67.45) rotate(90)" fill="#f9a305"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1042, 4064.59)" filter="url(#Rectangle_281)">
+      <path id="Rectangle_281-2" data-name="Rectangle 281" d="M0,0H0A19.967,19.967,0,0,1,19.967,19.967V40.742a0,0,0,0,1,0,0h0A19.967,19.967,0,0,1,0,20.775V0A0,0,0,0,1,0,0Z" transform="translate(31.5 67.45)" fill="#f9a305"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1042, 4064.59)" filter="url(#Rectangle_282)">
+      <path id="Rectangle_282-2" data-name="Rectangle 282" d="M0,0H0A19.967,19.967,0,0,1,19.967,19.967v16.1a0,0,0,0,1,0,0h0A19.967,19.967,0,0,1,0,16.1V0A0,0,0,0,1,0,0Z" transform="translate(271.43 30.47) rotate(-90)" fill="#f9a305"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1042, 4064.59)" filter="url(#Rectangle_283)">
+      <path id="Rectangle_283-2" data-name="Rectangle 283" d="M19.967,0h0a0,0,0,0,1,0,0V16.1A19.967,19.967,0,0,1,0,36.071H0a0,0,0,0,1,0,0v-16.1A19.967,19.967,0,0,1,19.967,0Z" transform="translate(271.43 10.5) rotate(90)" fill="#f9a305"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1042, 4064.59)" filter="url(#Rectangle_284)">
+      <path id="Rectangle_284-2" data-name="Rectangle 284" d="M0,0H0A19.967,19.967,0,0,1,19.967,19.967V72.142a0,0,0,0,1,0,0h0A19.967,19.967,0,0,1,0,52.175V0A0,0,0,0,1,0,0Z" transform="translate(269.53 37.02)" fill="#f9a305"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1042, 4064.59)" filter="url(#Rectangle_285)">
+      <path id="Rectangle_285-2" data-name="Rectangle 285" d="M0,0H0A19.967,19.967,0,0,1,19.967,19.967V72.142a0,0,0,0,1,0,0h0A19.967,19.967,0,0,1,0,52.175V0A0,0,0,0,1,0,0Z" transform="translate(112.95 36.04)" fill="#f9a305"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1042, 4064.59)" filter="url(#Rectangle_286)">
+      <path id="Rectangle_286-2" data-name="Rectangle 286" d="M0,0H0A19.967,19.967,0,0,1,19.967,19.967V72.142a0,0,0,0,1,0,0h0A19.967,19.967,0,0,1,0,52.175V0A0,0,0,0,1,0,0Z" transform="translate(206.37 88.22) rotate(90)" fill="#f9a305"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1042, 4064.59)" filter="url(#Rectangle_287)">
+      <path id="Rectangle_287-2" data-name="Rectangle 287" d="M19.967,0h0a0,0,0,0,1,0,0V41.478A19.967,19.967,0,0,1,0,61.445H0a0,0,0,0,1,0,0V19.967A19.967,19.967,0,0,1,19.967,0Z" transform="translate(269.53 88.72) rotate(90)" fill="#f9a305"/>
+    </g>
+    <path id="Rectangle_288" data-name="Rectangle 288" d="M15.212,0H30.425a0,0,0,0,1,0,0V15.212A15.212,15.212,0,0,1,15.212,30.425h0A15.212,15.212,0,0,1,0,15.212v0A15.212,15.212,0,0,1,15.212,0Z" transform="translate(1133.986 4190.897) rotate(135)" fill="#f9a305"/>
+    <path id="Rectangle_289" data-name="Rectangle 289" d="M15.212,0H30.425a0,0,0,0,1,0,0V15.212A15.212,15.212,0,0,1,15.212,30.425h0A15.212,15.212,0,0,1,0,15.212v0A15.212,15.212,0,0,1,15.212,0Z" transform="translate(1226.797 4190.897) rotate(135)" fill="#f9a305"/>
+    <path id="Rectangle_290" data-name="Rectangle 290" d="M20.01,0H20.5a0,0,0,0,1,0,0V20.01a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A20.01,20.01,0,0,1,20.01,0Z" transform="translate(1292.889 4110.429) rotate(90)" fill="#f9a305"/>
+    <path id="Rectangle_291" data-name="Rectangle 291" d="M20.01,0H20.5a0,0,0,0,1,0,0V20.01a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A20.01,20.01,0,0,1,20.01,0Z" transform="translate(1112.473 4152.276) rotate(90)" fill="#f9a305"/>
+    <path id="Rectangle_292" data-name="Rectangle 292" d="M20.01,0H20.5a0,0,0,0,1,0,0V20.01a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A20.01,20.01,0,0,1,20.01,0Z" transform="translate(1112.473 4152.764)" fill="#f9a305"/>
+  </g>
+</svg>

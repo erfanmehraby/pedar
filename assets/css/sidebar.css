@@ -1,0 +1,36 @@
+
+/* ------sidebar---------- */
+
+
+   .sidebar a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: #732ca4;
+   }
+   
+   .submenu-sidebar {
+       display: none;
+       max-height: 130px; 
+       overflow-y: auto; 
+   }
+
+   .angle-down {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #712ba2;
+}
+
+ /*   در فایل  css  مربوطه حذف گردیده و با کامنت در هر کدام مشخص گردید   */
+ /* .sidebar a:hover {
+    color: #ccc;
+ } */
+
+  /* .sidebar li:hover .submenu-sidebar {
+    display: block;
+ } */
+
+
+   

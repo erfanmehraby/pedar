@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/User.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/sidebar.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>User</title>
+</head>
+<body>
+
+    <!-- header -->
+        <div class="container">
+          
+    <div class="section-1">
+
+        <!-- header-right -->
+        <header class="header-wrapper1">
+        <div class="header-right">
+ <a href="#" class="icon2"><img src="./assets/images/Layer 1.svg" alt=""></a>
+ <a href="#" class="icon2"><img src="./assets/images/Layer 4.svg" alt=""></a>
+        </div>
+                 <div class="header-left-1">
+                    <ul class="menu">
+                        <li><a id="Selection" href="#"> مشخصات کاربر</a></li>
+                        <li><a href="#"> تاریخچه</a></li>
+                        <li><a href="#"> تغییر کلمه عبور</a></li>
+                        <li><a href="#"> پرداخت</a></li>
+                    </ul>
+                 </div>
+                 </header>       
+    </div>
+                 
+
+                    <div class="section-2">
+                       <!-- <div class="user-profile">
+<img src="./assets/images/Ellipse 57.svg">
+<div class="profile-img">
+<img src="./assets/images/Layer 2-5.svg">
+</div>
+                       </div> -->
+
+                       <div class="user-profile">
+                       
+                        <div class="profile-img" id="profile-img">
+                            <img src="./assets/images/Group 36.svg" id="profile-picture">
+                            <input type="file" id="file-input" style="display: none;">
+                        </div>
+                    </div>
+   
+                    </div>
+                    <!-- header-left -->
+    <div class="section-3">
+        <header class="header-wrapper2">
+             <div class="header-left">
+                <a href="#" class="icon1" id="cart-icon"><img src="./assets/images/Layer 3.svg"></a>
+                <div class="cart-box">
+                <h4>سبد خرید شما خالی است.</h4>
+                <div class="cart-product">
+                
+                  <div class="basket">
+                    <div class="cart-labels">
+                        <ul class="cart-ul">
+                            <li class=" item-heading">محصول</li>
+                            <li class=" cart-price-item">قیمت</li>
+                            <li class="cart-quantity">تعداد</li>
+                        </ul>
+                    </div>
+                            <div class="basket-product">
+                        <div class="cart-item">
+                            <div class="product-image-cart">
+                                <a href="#"><img src="/assets/images/baner.svg" alt="" class="product-image-cart-img"></a>
+                            </div>
+                            <div class="product-details">
+                                <p> <strong>  عطر و ادکلن شنل نامبر 5  </strong> </p>
+                            </div>
+                        </div>
+                        <div class="price-cart-item">1650000<span>تومان</span></div>
+                        
+                        <div class="td-button">  <button class="td-button-Level" onclick="decrementQuantity(this)"><svg  width="34" height="34" viewBox="0 0 99 54">
+                          <path id="Rectangle_108" data-name="Rectangle 108" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(99) rotate(90)" fill="#732ca4"/>
+                          <path id="Rectangle_107" data-name="Rectangle 107" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(99 27) rotate(90)" fill="#732ca4"/>
+                        </svg>
+                        <span class="negative">-</span> </button>
+                          
+                          <span class="quantity1">1</span>
+                          
+                          <button onclick="incrementQuantity(this)"> <svg width="34" height="34" viewBox="0 0 99 54">
+                            <path id="Rectangle_106" data-name="Rectangle 106" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(0 54) rotate(-90)" fill="#732ca4"/>
+                            <path id="Rectangle_109" data-name="Rectangle 109" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(0 27) rotate(-90)" fill="#732ca4"/>
+                          </svg>
+                          <span class="Positive">+</span></button>
+                        </div>
+                        <div><button class="delete"><img src="./assets/images/clear.png" alt=""></button></div>
+                    </div>
+                
+                    <div class="basket-product">
+                      <div class="cart-item">
+                          <div class="product-image-cart">
+                              <a href="#"><img src="/assets/images/baner.svg" alt="" class="product-image-cart-img"></a>
+                          </div>
+                          <div class="product-details">
+                              <p> <strong>  عطر و ادکلن شنل نامبر 5  </strong> </p>
+                          </div>
+                      </div>
+                      <div class="price-cart-item">1650000<span>تومان</span></div>
+                      
+                      <div class="td-button">  <button class="td-button-Level" onclick="decrementQuantity(this)"><svg  width="34" height="34" viewBox="0 0 99 54">
+                        <path id="Rectangle_108" data-name="Rectangle 108" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(99) rotate(90)" fill="#732ca4"/>
+                        <path id="Rectangle_107" data-name="Rectangle 107" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(99 27) rotate(90)" fill="#732ca4"/>
+                      </svg>
+                      <span class="negative">-</span> </button>
+                        
+                        <span class="quantity1">1</span>
+                        
+                        <button onclick="incrementQuantity(this)"> <svg width="34" height="34" viewBox="0 0 99 54">
+                          <path id="Rectangle_106" data-name="Rectangle 106" d="M27,0h0a0,0,0,0,1,0,0V72A27,27,0,0,1,0,99H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(0 54) rotate(-90)" fill="#732ca4"/>
+                          <path id="Rectangle_109" data-name="Rectangle 109" d="M0,0H0A27,27,0,0,1,27,27V99a0,0,0,0,1,0,0h0A27,27,0,0,1,0,72V0A0,0,0,0,1,0,0Z" transform="translate(0 27) rotate(-90)" fill="#732ca4"/>
+                        </svg>
+                        <span class="Positive">+</span></button>
+                      </div>
+                      <div><button class="delete"><img src="./assets/images/clear.png" alt=""></button></div>
+                  </div>
+                        </div>
+                        
+                  
+                
+                </div>
+                <div class="cart-price">
+                <span>  جمع: </span>  <span> تومان </span>  
+                </div>
+                <a href="" class="cart-view"><p>مشاهده سبد خرید</p></a>
+                <a href="" class="cart-Clear"><p>تسویه حساب</p></a>
+                </div>
+                <div id="overlay"></div>
+                <a href="#" class="icon1-search" id="search-icon"><img src="./assets/images/Layer 2.svg">
+                  <div class="search-box">
+                              <input type="text" class="search">
+                              <button class="button-search"><img src="./assets/images/Layer 2.svg"></button>
+                             </div>
+                           
+                </a>
+             </div>
+             <div class="header-right-3">
+                <ul class="menu-2">
+                    <li><a href="#">  لیست علاقه مندی ها</a></li>
+                    <li><a href="#"> سبد خرید</a></li>
+                    <li><a href="#"> تخصیص کلمه عبور</a></li>
+                    <li><a href="#"> راهنمای استفاده از فارپوم</a></li>
+                </ul>
+             </div>
+        </header>
+    </div>
+        </div>
+         <!-- main -->
+         <main class="container-main">
+            <div class="section-4">
+                <h2 class="specs-title">اطلاعات حساب</h2>
+                <form class="specs-box1">
+                <div class="specs-wrapper">
+                    <div class="specs">
+                        <div class="specs2">
+                    <input type="text" id="myInput2" class="specs3" value="آدرس ایمیل">
+                            <svg class="svg-specs"  width="104" height="94" viewBox="0 0 154 84">
+                                <path id="Rectangle_32" data-name="Rectangle 32" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(0 84) rotate(-90)" fill="#732ca4"/>
+              <path id="Rectangle_33" data-name="Rectangle 33" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(0 42) rotate(-90)" fill="#732ca4"/>
+                            </svg>
+                            <img src="./assets/images/Group 40.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="specs-wrapper">
+                    <div class="specs">
+                        <div class="specs2">
+                    <input type="text" id="myInput3" class="specs3" value="کد دعوت شما">
+                            <svg class="svg-specs"  width="104" height="94" viewBox="0 0 154 84">
+                                <path id="Rectangle_32" data-name="Rectangle 32" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(0 84) rotate(-90)" fill="#732ca4"/>
+              <path id="Rectangle_33" data-name="Rectangle 33" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(0 42) rotate(-90)" fill="#732ca4"/>
+                            </svg>
+                            <img src="./assets/images/Group 40.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="specs-wrapper">
+                    <div class="specs">
+                        <div class="specs2">
+                    <input type="text" id="myInput4" class="specs3" value="تعداد فارپوم">
+                            <svg class="svg-specs"  width="104" height="94" viewBox="0 0 154 84">
+                                <path id="Rectangle_32" data-name="Rectangle 32" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(0 84) rotate(-90)" fill="#732ca4"/>
+              <path id="Rectangle_33" data-name="Rectangle 33" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(0 42) rotate(-90)" fill="#732ca4"/>
+                            </svg>
+                            <img src="./assets/images/Group 40.svg">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            </div>
+<div class="section-5">
+ 
+            </div>
+            <form class="section-6">
+                <div class="specs-box2">
+               <div class="specs-wrapper">
+                <div class="specs">
+                    <div class="specs2">
+                <input type="text" id="myInput5" class="specs3" value="شماره تماس">
+                        <svg class="svg-specs"  width="104" height="94" viewBox="0 0 154 84">
+                            <path id="Rectangle_32" data-name="Rectangle 32" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(0 84) rotate(-90)" fill="#732ca4"/>
+          <path id="Rectangle_33" data-name="Rectangle 33" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(0 42) rotate(-90)" fill="#732ca4"/>
+                        </svg>
+                        <img src="./assets/images/Group 40.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="specs-wrapper">
+                <div class="specs">
+                    <div class="specs2">
+                <input type="text" id="myInput6" class="specs3" value="کد دعوت شما">
+                        <svg class="svg-specs"  width="104" height="94" viewBox="0 0 154 84">
+                            <path id="Rectangle_32" data-name="Rectangle 32" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(0 84) rotate(-90)" fill="#732ca4"/>
+          <path id="Rectangle_33" data-name="Rectangle 33" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(0 42) rotate(-90)" fill="#732ca4"/>
+                        </svg>
+                        <img src="./assets/images/Group 40.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="specs-wrapper">
+                <div class="specs">
+                    <div class="specs2">
+                <input type="text" id="myInput7" class="specs3" value="تعداد فارپوم">
+                        <svg class="svg-specs"  width="104" height="94" viewBox="0 0 154 84">
+                            <path id="Rectangle_32" data-name="Rectangle 32" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(0 84) rotate(-90)" fill="#732ca4"/>
+          <path id="Rectangle_33" data-name="Rectangle 33" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(0 42) rotate(-90)" fill="#732ca4"/>
+                        </svg>
+                        <img src="./assets/images/Group 40.svg">
+                    </div>
+                </div>
+            </div>
+        </form>
+            <div>
+                <h2 class="specs-title-1"> زمان باقی مانده برای فارپوم بعدی</h2>
+                <div class="farpom">
+                    <div class="circle1">
+                     <p>22</p>
+                    </div>
+                <svg class="svg-farpom1"  width="230" height="120" viewBox="0 0 154 84">
+                    <path id="Rectangle_32" data-name="Rectangle 32" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(0 84) rotate(-90)" fill="#732ca4"/>
+                    <path id="Rectangle_33" data-name="Rectangle 33" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(0 42) rotate(-90)" fill="#732ca4"/>
+                </svg> 
+
+                <div class="circle3">
+                    <p>22</p>
+                   </div>
+
+                <div class="circle2">
+                    <p>22</p>
+                   </div>
+                <svg class="svg-farpom2"  width="230" height="120" viewBox="0 0 154 84">
+                    <path id="Rectangle_110" data-name="Rectangle 110" d="M42,0h0a0,0,0,0,1,0,0V112A42,42,0,0,1,0,154H0a0,0,0,0,1,0,0V42A42,42,0,0,1,42,0Z" transform="translate(154) rotate(90)" fill="#732ca4"/>
+                    <path id="Rectangle_111" data-name="Rectangle 111" d="M0,0H0A42,42,0,0,1,42,42V154a0,0,0,0,1,0,0h0A42,42,0,0,1,0,112V0A0,0,0,0,1,0,0Z" transform="translate(154 42) rotate(90)" fill="#732ca4"/>
+                </svg> 
+               </div>
+            </div>
+            </div>
+         </main>
+
+
+<!-------------- sidebar --------->
+     
+
+<div class="sidebar">
+    <form class="search-form">
+      <input type="text" placeholder="جستجو..." class="search-form-input">
+      <button class="sidebar-search-icon"  type="submit"><img src="./assets/images/download.png" alt=""></button>
+  </form>
+    <ul>
+           <!-- تغییر کرد -->
+        <li><a class="sidebar-a" href="#">لورم ایپسوم <span class="angle-down"></span> </a>
+            <!-- آیتم ها اضافه شده برای نمایش اسکرول -->
+            <ul class="submenu-sidebar">
+                <li><a class="sidebar-a" href="#">مورد ۱</a></li>
+                <li><a class="sidebar-a" href="#">مورد ۲</a></li>
+                <li><a class="sidebar-a" href="#">مورد ۳</a></li>
+                <li><a class="sidebar-a" href="#">مورد 4</a></li>
+                <li><a class="sidebar-a" href="#">مورد 5</a></li>
+            </ul>
+        </li>
+        <!-- تغییر کرد --> 
+        <li><a class="sidebar-a" href="#">لورم ایپسوم  <span class="angle-down"></span>  </a>
+             <!-- آیتم ها اضافه شده برای نمایش اسکرول -->
+            <ul class="submenu-sidebar">
+                <li><a class="sidebar-a" href="#">مورد ۱</a></li>
+                <li><a class="sidebar-a" href="#">مورد ۲</a></li>
+                <li><a class="sidebar-a" href="#">مورد ۳</a></li>
+                <li><a class="sidebar-a" href="#">مورد 4</a></li>
+                <li><a class="sidebar-a" href="#">مورد 5</a></li>
+            </ul>
+        </li>
+        <!-- تغییر کرد --> 
+        <li><a class="sidebar-a" href="#">لورم ایپسوم  <span class="angle-down"></span> </a>
+            <!-- آیتم ها اضافه شده برای نمایش اسکرول -->
+            <ul class="submenu-sidebar">
+                <li><a class="sidebar-a" href="#">مورد ۴</a></li>
+                <li><a class="sidebar-a" href="#">مورد ۵</a></li>
+                <li><a class="sidebar-a" href="#">مورد ۶</a></li>
+                <li><a class="sidebar-a" href="#">مورد 7</a></li>
+                <li><a class="sidebar-a" href="#">مورد 8</a></li>
+            </ul>
+        </li>
+ <!-- تغییر کرد -->
+        <li><a class="sidebar-a" href="#">لورم ایپسوم   <span class="angle-down"></span> </a>
+            <!-- آیتم ها اضافه شده برای نمایش اسکرول -->
+            <ul class="submenu-sidebar">
+                <li><a class="sidebar-a" href="#">مورد ۷</a></li>
+                <li><a class="sidebar-a" href="#">مورد ۸</a></li>
+                <li><a class="sidebar-a" href="#">مورد 9</a></li>
+                <li><a class="sidebar-a" href="#">مورد 10</a></li>
+                <li><a class="sidebar-a" href="#">مورد 11</a></li>
+                <li><a class="sidebar-a" href="#">مورد 12</a></li>
+            </ul>
+        </li>
+    </ul>
+  </div>
+
+
+
+
+          <!-------------- footer ------------------->
+
+          <footer class="container-footer">
+            <div class="footer-section-7">
+                <div class="footer-right">
+                    <div class="footer-Services">
+                    <p>نحوه ارائه خدمات</p>
+                    <ul>
+                     <li> <a href="">روش های پرداخت </a> </li>
+                     <li> <a href="">  روش های ارسال  </a>  </li>
+                     <li>  <a href="">روند مرجوعی کالا</a>   </li>
+                     <li>   <a href="">گارانتی اصالت و سلامت فیزیکی </a>  </li>
+                    </ul>
+                </div>
+                <div class="footer-Conditions">
+                    <p>  قوانین و شرایط</p>
+                    <ul>
+                     <li> <a href="">  قوانین و مقرارت </a> </li>
+                     <li> <a href="">    بلاگ  </a>  </li>
+                     <li>  <a href="">  تماس با ما</a>   </li>
+                     <li>   <a href="">    درباره ما </a>  </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="footer-section-8">
+            </div>
+            <div class="footer-section-9">
+                <div class="footer-left">
+                <div class="footer-Contact">
+                    <p>   شماره های تماس </p>
+                <ul>
+                    <li>02155687401</li>
+                    <li>09129494037 </li>
+                </ul>
+                <h3>آدرس</h3>
+                </div>
+                <div class="footer-adress">
+                 <ul>
+                    <li>
+                        تهران، دانشگاه تهران ،
+                        کوچه شهید داود طاهری ،
+                        خیابان کارگر شمالی ، پلاک 1547 
+                    </li>
+                 </ul>
+                 <p>ایمیل</p>
+                 <ul>
+                    <li>
+                        info@fatherperfume.ir 
+                    </li>
+                 </ul>
+                 <p>ساعت کاری</p>
+                 <ul>
+                    <li>همه روزه ساعت 8 الی 17<br> به جز ایام تعطیل</li>
+                 </ul>
+                 </div>
+                </div>
+            </div>
+        </footer>
+            <div class="container-namad">
+             <div class="namad">
+                <img src="./assets/images/enamad.svg">
+                
+                <img src="./assets/images/نماد اعتماد الکترونیکی.svg" >
+                
+                <img src="./assets/images/آرامش و اعتماد در خرید اینترنتی.svg" >
+                <img src="./assets/images/Line 7.svg" class="Line">
+            </div>
+            <div class="i-job">
+<img src="./assets/images/Group 26.svg" class="ijob-logo" >
+<img src="./assets/images/قدرت گرفته از سامانه هوشمند آی جاب.svg" alt="">
+            </div>
+        </div>
+
+
+
+      <!--------- footer-mobile ------------->
+      <footer>
+        <div class="footer-container-mobile">
+<div class="footer-mobile">
+<ul>
+    <li><a  href="#" >   <img class="mobile-icon" src="./assets/images/Subtraction 27.png"> </a></li>
+    <li><a  href="#" onclick="toggleClasses(event)">  <img class="mobile-icon2" src="./assets/images/Component 2 – 1.png">  </a></li>
+    <li><a href="#" class="icon2"><img src="./assets/images/Layer 2-icon1.svg" alt=""></a></li>
+    <li><a href="#" class="icon1-mobile" id="cart-icon2"><img src="./assets/images/Layer 2-icon3.svg"></a></li>
+</ul>
+</div>
+</div>
+       </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="./assets/js/User.js"></script>      
+</body>
+</html>
